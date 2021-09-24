@@ -1033,6 +1033,13 @@ h1, h2 {
     -webkit-transition: opacity .5s ease-in-out;
     transition: opacity .5s ease-in-out;
   }
+
+  .bloggers__lists {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 40px 0 0;
+  }
 }
 @media (min-width: 960px) {
   .container {
