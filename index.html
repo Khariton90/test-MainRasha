@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test-mainRussia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cursor"></div>
+      <header class="header">
+        <div class="container">
+        <div class="header__body">
+          <div class="header__logo">
+            <a class="links" href=""><img src="./img/logo.png" alt="Logo" /></a>
+          </div>
+          <nav class="nav">
+            <ul class="menu">
+              <li><a class="links menu__link" href="">Блогеры</a></li>
+              <li><a class="links menu__link" href="">Кейсы</a></li>
+              <li><a class="links menu__link" href="">exit agency</a></li>
+              <li><a class="links menu__link" href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="lang-and-burger">
+            <div class="lang"><a class="links" href="">en/ru</a></div>
+            <div class="burger">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="header__pages">
+          <p>
+            <a href="/"> Главная / </a
+            ><span><a class="links active" href="">Блогеры</a></span>
+          </p>
+        </div>
+      </div>
+      </header>
+    <main>
+      <section class="bloggers">
+        <div class="container">
+          <h1 class="bloggers__title">Блогеры</h1>
+          <div class="bloggers__body">
+            <div class="bloggers__sort">
+                <span class="bloggers__lists">Сортировать по:</span>
+              <div class="select">
+                <div class="select__header">
+                  <span class="selected links" id="direction">Выберите направление</span> <img class="select__icon links" src="./img/icons/arrow.svg" alt="">
+                </div>
+                <div class="select__body">
+                  <div class="select__title">Например: Путешествия</div>
+                  <div class="select__item">Все</div>
+                  <div class="select__item">DIY</div>
+                  <div class="select__item">Авто</div>
+                  <div class="select__item">Авторское шоу</div>
+                  <div class="select__item">Анбоксинг</div>
+                  <div class="select__item">Еда</div>
+                  <div class="select__item">Животные</div>
+                  <div class="select__item">Игры</div>
+                  <div class="select__item">Иностранные языки</div>
+                  <div class="select__item">Кино</div>
+                  <div class="select__item">Красота</div>
+                  <span class=""><img class="select__icon-bottom" src="./img/icons/arrow.svg" alt=""></span>
+                </div>
+              </div>
+                
+              <div class="select area">
+                <div class="select__header">
+                  <span class="selected links"  id="area">Выберите площадку</span> <img class="select__icon links" src="./img/icons/arrow.svg" alt="">
+                </div>
+                <div class="select__body">
+                  <div class="select__title">Например: Путешествия</div>
+                  <div class="select__item">Все</div>
+                  <div class="select__item">DIY</div>
+                  <div class="select__item">Авто</div>
+                  <div class="select__item">Авторское шоу</div>
+                  <div class="select__item">Анбоксинг</div>
+                  <div class="select__item">Еда</div>
+                  <div class="select__item">Животные</div>
+                  <div class="select__item">Игры</div>
+                  <div class="select__item">Иностранные языки</div>
+                  <div class="select__item">Кино</div>
+                  <div class="select__item">Красота</div>
+                </div>
+              </div>
+              
+              </div>
+            <div class="bloggers__cards cards">
+              <div class="cards__item item">
+                <img  data-src="./img/cards/1.png" src="./img/cards/1.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description active">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Все" data-area="Все" class="cards__item item">
+                <img data-src="./img/cards/7.png" src="./img/cards/7.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description active">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="DIY" data-area="DIY" class="cards__item item">
+                <img data-src="./img/cards/6.png" src="./img/cards/6.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description  active">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/5.png" src="./img/cards/5.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description  active">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авторское шоу" data-area="Авторское шоу" class="cards__item item">
+                <img data-src="./img/cards/4.png" src="./img/cards/4.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description  active">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Животные" data-area="Животные" class="cards__item item">
+                <img data-src="./img/cards/8.png" src="./img/cards/8.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description  active">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="DIY" data-area="DIY" class="cards__item item">
+                <img data-src="./img/cards/3.png" src="./img/cards/3.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description  active">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Красота" data-area="Красота" class="cards__item item" >
+                <img data-src="./img/cards/2.png" src="./img/cards/2.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description active">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div data-direction="Иностранные языки" data-area="Иностранные языки" class="cards__item item">
+                <img  data-src="./img/cards/1.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="DIY" data-area="DIY" class="cards__item item">
+                <img data-src="./img/cards/7.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/6.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/5.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/4.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/8.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/3.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item" >
+                <img data-src="./img/cards/2.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img  data-src="./img/cards/1.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/7.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/6.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/5.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/4.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/8.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item">
+                <img data-src="./img/cards/3.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-direction="Авто" data-area="Авто" class="cards__item item" >
+                <img data-src="./img/cards/2.png" src="./img/plug.png" alt="">
+                <a class="links item__link" href="maximov.html"></a>
+                <div class="item__description">
+                  <div class="blogger-dp">
+                    <p class="blogger-dp__name">Макс Максимов</p>
+                    <div class="item__social">
+                      <span><img src="./img/icons/youtube.svg" alt="youtube">3 160 000+</span>
+                      <span><img src="./img/icons/vk.svg" alt="vk">134 000+</span>
+                    </div>
+                    <div class="item__social">
+                      <span><img src="./img/icons/instagram.svg" alt="instagram">128 000+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="loading">Подгружаем</div>
+      </section>
+    </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__body">
+            <div class="footer__logo">
+              <a class="links" href=""><img src="./img/logo-footer.png" alt="" /></a>
+            </div>
+            <div class="footer__contacts">
+              <ul class="contacts">
+                <li><a class="links" target="_blank" href="#">Cвязаться с нами</a></li>
+                <li><a class="links" target="_blank" href="mailto:reklama@wildjam.ru">reklama@wildjam.ru</a></li>
+                <li><a class="links" href="">ул. Сущевская, д. 27, стр. 2</a></li>
+                <li><a class="links" target="_blank" href="tel:+7 (499) 393-39-62">+7 (499) 393-39-62</a></li>
+              </ul>
+            </div>
+            <div class="footer__social-buttons">
+              <a class="links" target="_blank" href="http://instagram.com"><img src="./img/icons/contacts_insta.svg" alt="instagram" /></a>
+              <a class="links" target="_blank" href="http://vk.com"><img src="./img/icons/contacts_vk.svg" alt="vk" /></a>
+            </div>
+          </div>
+      </div>
+      </footer>
+      <script src="filter.js"></script>
+      <script src="lazy.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
